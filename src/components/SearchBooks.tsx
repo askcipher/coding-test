@@ -9,14 +9,8 @@ export function SearchBooks({ books }: { books: Book[] }) {
   const [filtered, setFiltered] = useState<Book[]>(books);
 
   useEffect(() => {
-
-    const handler = setTimeout(() => {
-      const q = query.toLowerCase();
-      setFiltered(books.filter(b => b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q)));
-    }, 300);
-
-    return () => clearTimeout(handler);
-
+    const q = query.toLowerCase();
+    setFiltered(books.filter(b => b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q)));
   }, [query, books]);
 
   return (
