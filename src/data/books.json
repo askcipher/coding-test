@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A story about the Jazz Age in the United States."
+  },
+  {
+    "id": "2",
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian novel about total surveillance and control."
+  },
+  {
+    "id": "3",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A novel about racial injustice in the Deep South."
+  }
+]
